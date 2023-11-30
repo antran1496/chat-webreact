@@ -1,0 +1,59 @@
+.searchbox_contactlist {
+  overflow-y: auto;
+  padding-bottom: 360px;
+  overflow-x: hidden;
+  bottom: 0px;
+  height: 100%;
+}
+.searchbox_contain{
+  bottom: 0px;
+  height: 100%;
+}
+.searchbox_contain_hiden{
+	display: none;
+}
+
+.searchbox-group-title {
+  width: 115px;
+  height: 11px;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 2.4;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #959595;
+  text-indent: 12px;
+  text-transform: uppercase;
+}
+
+.zgroupitem-contact-rowline {
+  position: relative;
+  margin-left: 10px;
+  height: 70px;
+}
+
+.zgroup_name-contact {
+  display: -webkit-box;
+  max-height: 3.2rem;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  -webkit-line-clamp: 2;
+  line-height: 1.6rem;
+  font-size: 14px;
+  padding-left: 10px;
+  display: table-cell;
+  width: 250px;
+  height: 70px;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  vertical-align: middle;
+}
+
+.zgroup_avatar-contact {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 15px;
+}

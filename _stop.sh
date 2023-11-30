@@ -1,0 +1,1 @@
+pm2 delete rxgen_web; pm2 delete rxgen_api;

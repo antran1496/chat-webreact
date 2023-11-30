@@ -1,0 +1,37 @@
+{
+  "name": "Standardconfig",
+  "version": "2.1.0",
+  "description": "NodeJS Custom CLI Generator",
+  "keywords": [
+    "custom",
+    "module",
+    "nodejs",
+    "node",
+    "cli"
+  ],
+  "private": true,
+  "license": "Copyright",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": "http://rxkd.com"
+  },
+  "author": "RxDev",
+  "homepage": "http://rxkd.com",
+  "standard": {
+    "globals": [
+      "rxController",
+      "rxError",
+      "rxu",
+      "mongo",
+      "pri",
+      "t"
+    ],
+    "rules": {
+      "no-unused-vars": "off"
+    }
+  },
+  "dependencies": {}
+}

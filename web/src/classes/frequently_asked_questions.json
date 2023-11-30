@@ -1,0 +1,19 @@
+{ 
+  "questNum1": 
+  { "name":"questNum1",
+    "status_click": false,
+    "question_en":"How to log in or out?",
+    "question_vn":"Đăng xuất/nhập trong NetAlo như thế nào?",
+    "answer_en":"After opening NetAlo app, log in by filling in your username and password, then tap on the “Login” button. Then, you can now start using NetAlo by tapping on the “Start chatting” button. If you wish to log out, tap on the “Account” button on the bottom-right corner of your phone screen. When your account detail tab is shown, scroll down to the bottom of your phone screen and tap on “Log out”.",
+    "answer_vn":" Sau khi mở app NetAlo, để đăng nhập, bạn hãy nhập tên đăng nhập và mật khẩu, sau đó bấm chọn “Đăng nhập”. Bạn có thể bắt đầu sử dụng NetAlo bằng cách bấm chọn “Bắt đầu chat”. Nếu muốn đăng xuất, bạn hãy bấm nút “Tài khoản” ở góc phải phía dưới màn hình điện thoại. Lúc này, khung thông tin chi tiết tài khoản của bạn sẽ xuất hiện, bạn hãy vuốt xuống dưới đáy màn hình và bấm chọn “Đăng xuất”."
+  },
+
+  "questNum2": 
+  { "name":"questNum2",
+    "status_click": false,
+    "question_en":"How to create a group chat?",
+    "question_vn":"Làm sao để tạo một nhóm chat?",
+    "answer_en":"On the main page, tap on the “Message” button on the top-right corner of your phone screen. When a new tab appears, tap on “Create a group chat” (in blue color). NetAlo will then show your contact list. From there, pick those you wish to create a group chat with, then tap on “Done”. You can also create a group chat by choosing a particular chat of yours with another person on the main page. When your message tab shows up, tap on the Name of the person located on top of your phone screen. Another tab showing your contact’s detailed information will appear. Then, tap on “Create group”, choose from your contact list who you wish to invite to the chat group, then tap on “Done”.",
+    "answer_vn":"Tại trang chính, bấm vào nút “Tin nhắn” tại góc phải trên cùng của màn hình điện thoại. Sau khi tab mới xuất hiện, bấm chọn “Tạo nhóm trò chuyện”. Lúc này, danh bạ của bạn sẽ xuất hiện. Bạn hãy chọn những người mà bạn muốn mời tham gia nhóm chat, sau đó bấm chọn “Xong”. Bạn cũng có thể tạo nhóm chat bằng cách bấm chọn một tin nhắn giữa bạn và một người bất kỳ tại trang chính. Khi khung chat xuất hiện, hãy bấm chọn Tên của người đó. Trên tab thông tin chi tiết của người đó, hãy bấm “Tạo nhóm”. Sau đó, chọn từ danh bạ của bạn người bạn muốn mời tham gia nhóm chat, sau đó bấm chọn “Xong”."
+  }
+}

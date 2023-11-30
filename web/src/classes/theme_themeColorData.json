@@ -1,0 +1,58 @@
+{ 
+  "nightTheme": 
+  { "galo": 
+    {
+      "theme_color_background_active_tagname" : "#3b3c3c",    
+      "theme_color_background_hover_tagname" : "#65676B",
+      "theme_color_background_active" : "#3b3c3c",    
+      "theme_color_background_hover" : "#65676B"  
+    },
+    "default":
+    {
+      "theme_color_background_active_tagname" : "#545659",    
+      "theme_color_background_hover_tagname" : "#909399",
+      "theme_color_background_active" : "#3b3c3c",    
+      "theme_color_background_hover" : "#65676B"  
+    }
+    
+
+  },
+  "orangeColor": 
+  { 
+    "galo":
+    {
+      "theme_color_background_active_tagname" : "#ebfcff",   
+      "theme_color_background_hover_tagname" : "#f8fffe",
+      "theme_color_background_active" : "#f5773e12",   
+      "theme_color_background_hover" : "#F7F1F8"
+    },
+    "default":
+    {
+      "theme_color_background_active_tagname" : "#fdf2ea",   
+      "theme_color_background_hover_tagname" : "#fdfaf8ee",
+      "theme_color_background_active" : "#f5773e12",   
+      "theme_color_background_hover" : "#fdfaf8ee"
+    }
+    
+
+  },
+  "blueColor":
+  {
+    "galo":
+    {
+      "theme_color_background_active_tagname" : "#f7f0f7", 
+      "theme_color_background_hover_tagname" : "#f9fbff" ,
+      "theme_color_background_active" : "#fef7ed", 
+      "theme_color_background_hover" : "#f9fbff"  
+    },
+    "default":
+    {
+      "theme_color_background_active_tagname" : "#f7f0f7", 
+      "theme_color_background_hover_tagname" : "#f9fbff",
+      "theme_color_background_active" : "#fef7ed", 
+      "theme_color_background_hover" : "#fffdfa"
+    }
+    
+    
+  }
+}

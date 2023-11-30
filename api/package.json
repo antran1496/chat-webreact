@@ -1,0 +1,60 @@
+{
+  "name": "RxgenApi",
+  "config": {
+    "pm2name": "rxnetalo_api"
+  },
+  "version": "2.1.0",
+  "description": "NodeJS Custom CLI Generator",
+  "keywords": [
+    "custom",
+    "module",
+    "nodejs",
+    "node",
+    "cli"
+  ],
+  "private": true,
+  "license": "Copyright",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": "http://rxkd.com"
+  },
+  "author": "RxDev",
+  "homepage": "http://rxkd.com",
+  "scripts": {
+    "dev": "node index.js --watch --ignore-watch=\"node_modules upload data\"",
+    "server": "node index.js",
+    "pm2-start": "pm2 start index.js --name $npm_package_config_pm2name",
+    "pm2-stop": "pm2 delete $npm_package_config_pm2name",
+    "pm2-dev": "npm-run-all pm2-stop ; pm2 start index.js --name $npm_package_config_pm2name --watch --ignore-watch=\"node_modules upload data\"",
+    "pm2": "npm-run-all pm2-stop ; npm-run-all pm2-start"
+  },
+  "dependencies": {
+    "@rxframework/rxulti": "^3.0.6",
+    "crawler": "^1.1.2",
+    "crypto-js": "^3.1.9-1",
+    "formidable": "^1.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "max-listeners-exceeded-warning": "^0.0.1",
+    "moment": "^2.18.1",
+    "mongoose": "^5.1.5",
+    "node-cron": "^2.0.3",
+    "node-fetch": "^2.1.1",
+    "npm-run-all": "^4.0.2",
+    "pmx": "^1.6.7",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {},
+  "devDependenciesBack": {
+    "standard": "*"
+  },
+  "standard": {
+    "globals": [
+      "rxController",
+      "rxu",
+      "mongo"
+    ]
+  }
+}

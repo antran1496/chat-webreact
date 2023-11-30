@@ -1,0 +1,31 @@
+let mongoose = require('mongoose')
+let Schema = mongoose.Schema
+let cateName = '[[RXCATE]]'
+
+// create a schema
+let schema = new Schema({
+  name: { type: String, default: '' },
+  desc: { type: String, default: '' },
+
+  app: { type: mongoose.Schema.Types.ObjectId, ref: cateName },
+  appobj: { type: mongoose.Schema.Types.ObjectId, ref: cateName },
+  appdist: [{ type: mongoose.Schema.Types.ObjectId, ref: cateName }],
+  appdistobj: [{ type: mongoose.Schema.Types.ObjectId, ref: cateName }],
+
+  // [[RX_MODEL_CUSTOM]] //
+  // [[RX_MODEL_CUSTOM_END]] //
+
+  is_deleted: { type: Number, default: 0 },
+  is_active: { type: Number, default: 1 },
+  created_at: { type: Number, default: 0 },
+  updated_at: { type: Number, default: 0 }
+})
+
+schema.pre('save', function (next) {
+  this.created_at = this.created_at || Math.floor(Date.now() / 1000)
+  this.updated_at = Math.floor(Date.now() / 1000)
+  next()
+})
+
+let exportModel = mongoose.model('[[RXNAME]]', schema)
+module.exports = exportModel
